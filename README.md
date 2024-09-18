@@ -17,8 +17,8 @@ This project is part of the diploma in IT Infrastructure Management applied to b
 - **Deployment with Docker Compose**: Each service runs in its own container for scalability and security.
 
 ## Security Practices
-- **JWT Authentication: Utilizes JWT with SHA-256 for secure authentication and token management.
-- **Key Encryption: RSA key generation is implemented using the cryptography library with 2048-bit keys.
+- **JWT Authentication**: Utilizes JWT with SHA-256 for secure authentication and token management.
+- **Key Encryption**: RSA key generation is implemented using the cryptography library with 2048-bit keys.
 
 ## Deployment
 The system is deployed using Docker Compose. It includes separate containers for each service:
