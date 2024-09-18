@@ -18,9 +18,9 @@ This project is part of the diploma in IT Infrastructure Management applied to b
 
 ## Security Practices
 - **JWT Authentication: Utilizes JWT with SHA-256 for secure authentication and token management.
-- **Key Encryption: RSA key generation is implemented using the cryptography library with 2048-bit keys. Example code:
-## Deployment
+- **Key Encryption: RSA key generation is implemented using the cryptography library with 2048-bit keys.
 
+## Deployment
 The system is deployed using Docker Compose. It includes separate containers for each service:
 1. **Firewall Container**: Controls access to system functions.
 2. **Database Container**: MariaDB to store user and file information.
